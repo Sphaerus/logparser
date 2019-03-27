@@ -1,6 +1,7 @@
 require "./src/sorting/by_views"
 require "./src/sorting/by_original_views"
 require "./src/parser/file"
+
 module Parser
   class WebLog
     BY_VIEWS_FIRST_LINE = "List of webpages with most page views ordered from most pages views to less page views".freeze
